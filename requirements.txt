@@ -1,0 +1,12 @@
+# Faz 1 — MCP Python SDK ile uyumlu pinler (Ana repodaki fastapi 0.104 / pydantic 2.5 ile ÇAKIŞIR;
+# bu dosya yalnızca MCP-Workplace / mcp-workplace konteyneri içindir.)
+#
+# mcp 1.27.x: anyio>=4.5, pydantic>=2.11, uvicorn>=0.31
+mcp[cli]==1.27.0
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+redis==5.0.1
+httpx==0.28.1
+# interactive_chat.py ajan döngüsü (OpenRouter / Ollama OpenAI uyumlu API)
+openai==1.59.9
