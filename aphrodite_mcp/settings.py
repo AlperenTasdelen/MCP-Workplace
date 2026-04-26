@@ -28,3 +28,11 @@ def llm_pod_url() -> str:
 
 def gateway_url() -> str:
     return os.getenv("GATEWAY_URL", "http://localhost:8000").rstrip("/")
+
+
+def camera_pod_url() -> str:
+    return os.getenv("CAMERA_POD_URL", "http://localhost:8006").rstrip("/")
+
+
+def vision_service_url() -> str:
+    return os.getenv("VISION_SERVICE_POD_URL", "http://localhost:8007").rstrip("/")
