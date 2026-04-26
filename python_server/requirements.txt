@@ -1,1 +1,4 @@
 mcp[cli]
+httpx
+python-dotenv
+openai
